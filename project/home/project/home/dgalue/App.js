@@ -17,7 +17,7 @@ function Board({ xIsNext, squares, onPlay }) {
     if (xIsNext) {
       nextSquares[i] = "*";
     } else {
-      nextSquares[i] = "O";
+      nextSquares[i] = "0";
     }
     onPlay(nextSquares);
   }
